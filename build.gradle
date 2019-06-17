@@ -13,13 +13,8 @@ repositories {
 }
 
 dependencies {
-  // https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
   implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
-  // https://kikutaro777.hatenablog.com/entry/2018/03/06/231304
-  // https://mvnrepository.com/artifact/com.sun.mail/javax.mail
   implementation group: 'com.sun.mail', name: 'javax.mail', version: '1.6.2'
-  // https://mvnrepository.com/artifact/com.icegreen/greenmail
   testImplementation group: 'com.icegreen', name: 'greenmail', version: '1.5.10'
-  // Use JUnit test framework
   testImplementation 'junit:junit:4.12'
 }
