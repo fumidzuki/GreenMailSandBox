@@ -1,8 +1,8 @@
-# javamail-sample
+# GreenMailSandbox
 
 ## Description
 
-「JavaMail」を使用しての簡単なメール送信方法と単体試験の方法についてのサンプルリポジトリです。
+「GreenMail」を使用した簡単な単体試験方法についてのサンプルリポジトリです。
 
 ## Requirement
 
@@ -10,12 +10,13 @@
 * JavaMail：1.6.2
 * JUnit：4.12
 * GreenMail：1.5.10
+* Gradle：5.4.1
 
 ## Usage
 
 ```sh
-$ git https://github.com/fumidzuki/javamail-sample.git
-$ cd javamail-sample
+$ git httpshttps://github.com/fumidzuki/GreenMailSandBox.git
+$ cd GreenMailSandBox
 $ ./gradlew test
 ```
 
